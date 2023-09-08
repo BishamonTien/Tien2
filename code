@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int a, b, c;
+    printf("a va b: ");
+    scanf("%d %d", &a, &b);
+    printf("trc a=%d, b=%d \n",a, b);
+    c=a;
+    a=b;
+    b=c;
+    printf("sau a=%d, b=%d",a, b);
+    return 0;
+}
